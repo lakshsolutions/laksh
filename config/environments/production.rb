@@ -59,7 +59,11 @@ Rails.application.configure do
 
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
+<<<<<<< HEAD
   config.action_mailer.raise_delivery_errors = false
+=======
+  # config.action_mailer.raise_delivery_errors = false
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
@@ -80,6 +84,7 @@ Rails.application.configure do
     logger.formatter = config.log_formatter
     config.logger = ActiveSupport::TaggedLogging.new(logger)
   end
+<<<<<<< HEAD
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.smtp_settings = {
@@ -91,6 +96,8 @@ Rails.application.configure do
     enable_starttls_auto: true,
     openssl_verify_mode: 'none'
   }
+=======
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false

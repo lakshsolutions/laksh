@@ -19,14 +19,22 @@ default: &default
 
 development:
   <<: *default
+<<<<<<< HEAD
   database: laksh_new_development
+=======
+  database: laksh_development
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
+<<<<<<< HEAD
   database: laksh_new_test
+=======
+  database: laksh_test
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -49,8 +57,11 @@ test:
 #
 production:
   <<: *default
+<<<<<<< HEAD
   adapter:  postgresql
   encoding: unicode
+=======
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
   database: laksh_production
   username: laksh
   password: <%= ENV['LAKSH_DATABASE_PASSWORD'] %>

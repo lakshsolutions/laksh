@@ -1155,7 +1155,11 @@ div[data-dimension] {
 	display: inline;
 	width: 100%;
 }
+<<<<<<< HEAD
 .contact_form input[type="text"], input[type="email"], input[type="number"]{
+=======
+.contact_form input[type="text"],.contact_form input[type="email"]{
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 	margin-bottom: 30px;
 	border-radius: 0px;
 }
@@ -1536,6 +1540,7 @@ textarea .form-control {
 .single_contact_feaured.wow.fadeInUp.animated {
   min-height: 205px
 }
+<<<<<<< HEAD
 
 /* contact us button */
 .footer-submit-btn {
@@ -1558,3 +1563,5 @@ textarea .form-control {
   border-radius: 5px 0px 5px 0px;
   background-color: #2da2c8 !important;
 }
+=======
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
