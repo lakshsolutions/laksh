@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 5.0.4'
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+gem 'mysql2', '>= 0.3.18', '< 0.5'
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 =======
 gem 'mysql2', '>= 0.3.18', '< 0.5'
 >>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
@@ -21,7 +25,10 @@ end
 
 group :development do
 <<<<<<< HEAD
+<<<<<<< HEAD
   gem 'mysql2', '>= 0.3.18', '< 0.5'
+=======
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 =======
 >>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
   gem 'web-console', '>= 3.3.0'
@@ -31,9 +38,12 @@ group :development do
 end
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Environment Variable
 gem 'figaro', '1.1.1'
 
+=======
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 =======
 >>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 group :production do

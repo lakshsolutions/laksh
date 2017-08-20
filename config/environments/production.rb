@@ -60,7 +60,11 @@ Rails.application.configure do
   # Ignore bad email addresses and do not raise email delivery errors.
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
 <<<<<<< HEAD
+<<<<<<< HEAD
   config.action_mailer.raise_delivery_errors = false
+=======
+  # config.action_mailer.raise_delivery_errors = false
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 =======
   # config.action_mailer.raise_delivery_errors = false
 >>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
@@ -85,6 +89,7 @@ Rails.application.configure do
     config.logger = ActiveSupport::TaggedLogging.new(logger)
   end
 <<<<<<< HEAD
+<<<<<<< HEAD
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.perform_deliveries = true
   config.action_mailer.smtp_settings = {
@@ -96,6 +101,8 @@ Rails.application.configure do
     enable_starttls_auto: true,
     openssl_verify_mode: 'none'
   }
+=======
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 =======
 >>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 

@@ -20,7 +20,11 @@ default: &default
 development:
   <<: *default
 <<<<<<< HEAD
+<<<<<<< HEAD
   database: laksh_new_development
+=======
+  database: laksh_development
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 =======
   database: laksh_development
 >>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
@@ -31,7 +35,11 @@ development:
 test:
   <<: *default
 <<<<<<< HEAD
+<<<<<<< HEAD
   database: laksh_new_test
+=======
+  database: laksh_test
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 =======
   database: laksh_test
 >>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
@@ -58,8 +66,11 @@ test:
 production:
   <<: *default
 <<<<<<< HEAD
+<<<<<<< HEAD
   adapter:  postgresql
   encoding: unicode
+=======
+>>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 =======
 >>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
   database: laksh_production
