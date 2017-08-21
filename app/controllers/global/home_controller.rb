@@ -3,8 +3,6 @@ class Global::HomeController < Global::GlobalApplicationController
   def index
   end
 
-<<<<<<< HEAD
-<<<<<<< HEAD
   def contact_us
     contact = Contact.new(contact_us_params)
     if contact.save
@@ -24,8 +22,4 @@ class Global::HomeController < Global::GlobalApplicationController
         :phone_no
       )
     end
-=======
->>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
-=======
->>>>>>> 217692cc830bd4e128e01365619c1c90b69ccaba
 end
