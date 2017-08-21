@@ -43,10 +43,9 @@
           </div>
           <div id="navbar" class="navbar-collapse collapse">
             <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
-              <li><a href="#">Home</a></li>
+              <li><a href="#home">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#skill_tab">Skills</a></li>
-              <li><a href="#service">Services</a></li>
               <li><a href="#contact">Contacts</a></li>
             </ul>
           </div><!--/.nav-collapse -->
@@ -56,7 +55,7 @@
       <!-- END MENU -->
 
       <!-- BEGIN SLIDER AREA-->
-      <div class="slider_area">
+      <div class="slider_area" id="home">
         <!-- BEGIN SLIDER-->
         <div id="slides">
           <ul class="slides-container">
@@ -208,7 +207,9 @@
               <div class="contact_map">
               <!-- BEGAIN GOOGLE MAP -->
                 <div>
-                  <%= image_tag 'full-slide1.jpg', class: 'map_image' %>
+                  <a href="https://www.google.co.in/maps?q=laksh+it+solutions+vvn&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiM-4ec9OjVAhVBso8KHZfKCh0Q_AUIDCgD", target="_blank">
+                    <%= image_tag 'map.jpg', class: 'map_image' %>
+                  </a>
                 </div>
               </div>
             </div>
@@ -265,7 +266,7 @@
           <div class="col-lg-6 col-md-6 col-sm-6">
             <div class="footer_left">
               <!--=========== Designed By WpFreeware Team ================-->
-              <p>Shared by <i class="fa fa-heart"></i><a href="#"> LakshItSolutions</a></p>
+              <p>Shared by <i class="fa fa-heart"></i><a href="#about"> LakshItSolutions</a></p>
               <!--=========== Designed By WpFreeware Team ================-->
             </div>
           </div>
@@ -274,7 +275,7 @@
               <ul class="social_nav">
                 <li><a href="https://www.facebook.com/laksh2125/" target="blank"><i class="fa fa-facebook"></i></a></li>
                 <li><a href="https://plus.google.com/u/0/117226400688266287255" target="blank"><i class="fa fa-google-plus"></i></a></li>
-                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#home"><i class="fa fa-linkedin"></i></a></li>
               </ul>
             </div>
           </div>
